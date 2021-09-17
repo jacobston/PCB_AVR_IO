@@ -468,4 +468,67 @@ Wire Wire Line
 Connection ~ 6850 1700
 Wire Wire Line
 	6450 4700 6850 4700
+$Comp
+L Connector:Conn_01x08_Male J36
+U 1 1 616B3B5E
+P 2800 2000
+F 0 "J36" H 2908 2481 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 2908 2390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2800 2000 50  0001 C CNN
+F 3 "~" H 2800 2000 50  0001 C CNN
+	1    2800 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1700 5450 1700
+Connection ~ 5450 1700
+Wire Wire Line
+	3000 1800 4500 1800
+Wire Wire Line
+	4500 1800 4500 2200
+Wire Wire Line
+	4500 2200 5450 2200
+Connection ~ 5450 2200
+Wire Wire Line
+	3000 1900 4400 1900
+Wire Wire Line
+	4400 1900 4400 2700
+Wire Wire Line
+	4400 2700 5450 2700
+Connection ~ 5450 2700
+Wire Wire Line
+	3000 2000 4300 2000
+Wire Wire Line
+	4300 2000 4300 3200
+Wire Wire Line
+	4300 3200 5450 3200
+Connection ~ 5450 3200
+Wire Wire Line
+	5450 3700 4200 3700
+Wire Wire Line
+	4200 3700 4200 2100
+Wire Wire Line
+	4200 2100 3000 2100
+Connection ~ 5450 3700
+Wire Wire Line
+	3000 2200 4100 2200
+Wire Wire Line
+	4100 2200 4100 4200
+Wire Wire Line
+	4100 4200 5450 4200
+Connection ~ 5450 4200
+Wire Wire Line
+	5450 4700 4000 4700
+Wire Wire Line
+	4000 4700 4000 2300
+Wire Wire Line
+	4000 2300 3000 2300
+Connection ~ 5450 4700
+Wire Wire Line
+	3000 2400 3900 2400
+Wire Wire Line
+	3900 2400 3900 5200
+Wire Wire Line
+	3900 5200 5450 5200
+Connection ~ 5450 5200
 $EndSCHEMATC

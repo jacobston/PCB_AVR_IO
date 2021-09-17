@@ -13,23 +13,23 @@ Comment2 "8x10 Inputs + 8x10 Outputs"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1150 1200 0    50   Input ~ 0
+Text HLabel 1550 1550 0    50   Input ~ 0
 Q0
-Text HLabel 1950 1200 0    50   Input ~ 0
+Text HLabel 1550 900  0    50   Input ~ 0
 Q1
-Text HLabel 3100 1200 0    50   Input ~ 0
+Text HLabel 3500 1550 0    50   Input ~ 0
 Q2
-Text HLabel 3900 1200 0    50   Input ~ 0
+Text HLabel 3500 900  0    50   Input ~ 0
 Q3
-Text HLabel 5100 1200 0    50   Input ~ 0
+Text HLabel 5500 1550 0    50   Input ~ 0
 Q4
-Text HLabel 7100 1200 0    50   Input ~ 0
+Text HLabel 7500 1550 0    50   Input ~ 0
 Q6
-Text HLabel 7900 1200 0    50   Input ~ 0
+Text HLabel 7500 900  0    50   Input ~ 0
 Q7
-Text HLabel 9200 1200 0    50   Input ~ 0
+Text HLabel 9600 1550 0    50   Input ~ 0
 Q8
-Text HLabel 10000 1200 0    50   Input ~ 0
+Text HLabel 9600 900  0    50   Input ~ 0
 Q9
 $Comp
 L Connector_Generic:Conn_02x08_Row_Letter_First J4
@@ -3281,186 +3281,188 @@ F 3 "~" H 3450 4350 50  0001 C CNN
 	1    3450 4350
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:Q_PNP_BEC Q1
-U 1 1 6140D920
-P 1350 1200
-F 0 "Q1" H 1540 1246 50  0000 L CNN
-F 1 "PNP" H 1540 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 1550 1300 50  0001 C CNN
-F 3 "~" H 1350 1200 50  0001 C CNN
-	1    1350 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_PNP_BEC Q2
-U 1 1 6140EC0D
-P 2150 1200
-F 0 "Q2" H 2340 1246 50  0000 L CNN
-F 1 "PNP" H 2340 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 2350 1300 50  0001 C CNN
-F 3 "~" H 2150 1200 50  0001 C CNN
-	1    2150 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 1400 1450 1550
-Wire Wire Line
-	1450 1550 2150 1550
-Wire Wire Line
-	2250 1400 2250 4350
-$Comp
-L Device:Q_PNP_BEC Q4
-U 1 1 6145D718
-P 4100 1200
-F 0 "Q4" H 4290 1246 50  0000 L CNN
-F 1 "PNP" H 4290 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 4300 1300 50  0001 C CNN
-F 3 "~" H 4100 1200 50  0001 C CNN
-	1    4100 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_PNP_BEC Q3
-U 1 1 6146055B
-P 3300 1200
-F 0 "Q3" H 3490 1246 50  0000 L CNN
-F 1 "PNP" H 3490 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 3500 1300 50  0001 C CNN
-F 3 "~" H 3300 1200 50  0001 C CNN
-	1    3300 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3400 1400 3400 1550
-Wire Wire Line
-	3400 1550 4100 1550
-Wire Wire Line
-	4200 1400 4200 4350
-Wire Wire Line
-	5400 1550 6100 1550
-$Comp
-L Device:Q_PNP_BEC Q5
-U 1 1 614AD85A
-P 5300 1200
-F 0 "Q5" H 5490 1246 50  0000 L CNN
-F 1 "PNP" H 5490 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 5500 1300 50  0001 C CNN
-F 3 "~" H 5300 1200 50  0001 C CNN
-	1    5300 1200
-	1    0    0    -1  
-$EndComp
-Text HLabel 5900 1200 0    50   Input ~ 0
+Text HLabel 5500 900  0    50   Input ~ 0
 Q5
 $Comp
-L Device:Q_PNP_BEC Q6
-U 1 1 614AC480
-P 6100 1200
-F 0 "Q6" H 6290 1246 50  0000 L CNN
-F 1 "PNP" H 6290 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 6300 1300 50  0001 C CNN
-F 3 "~" H 6100 1200 50  0001 C CNN
-	1    6100 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 1400 6200 4350
-Wire Wire Line
-	5400 1400 5400 1550
-$Comp
-L Device:Q_PNP_BEC Q8
-U 1 1 61676237
-P 8100 1200
-F 0 "Q8" H 8290 1246 50  0000 L CNN
-F 1 "PNP" H 8290 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 8300 1300 50  0001 C CNN
-F 3 "~" H 8100 1200 50  0001 C CNN
-	1    8100 1200
+L 74xx:74AHC04 U4
+U 1 1 61488BDF
+P 1850 1550
+F 0 "U4" H 1850 1867 50  0000 C CNN
+F 1 "74AHC04" H 1850 1776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1850 1550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 1850 1550 50  0001 C CNN
+	1    1850 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PNP_BEC Q7
-U 1 1 61677A75
-P 7300 1200
-F 0 "Q7" H 7490 1246 50  0000 L CNN
-F 1 "PNP" H 7490 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 7500 1300 50  0001 C CNN
-F 3 "~" H 7300 1200 50  0001 C CNN
-	1    7300 1200
+L 74xx:74AHC04 U4
+U 2 1 6151EAC9
+P 1850 900
+F 0 "U4" H 1850 1217 50  0000 C CNN
+F 1 "74AHC04" H 1850 1126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1850 900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 1850 900 50  0001 C CNN
+	2    1850 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 1400 7400 1550
+	2150 900  2250 900 
 Wire Wire Line
-	7400 1550 8100 1550
-Wire Wire Line
-	8200 1400 8200 4350
+	2250 900  2250 4350
 $Comp
-L Device:Q_PNP_BEC Q10
-U 1 1 616FAFB7
-P 10200 1200
-F 0 "Q10" H 10390 1246 50  0000 L CNN
-F 1 "PNP" H 10390 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 10400 1300 50  0001 C CNN
-F 3 "~" H 10200 1200 50  0001 C CNN
-	1    10200 1200
+L 74xx:74AHC04 U4
+U 3 1 615449D2
+P 3800 1550
+F 0 "U4" H 3800 1867 50  0000 C CNN
+F 1 "74AHC04" H 3800 1776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3800 1550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 3800 1550 50  0001 C CNN
+	3    3800 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PNP_BEC Q9
-U 1 1 616FC591
-P 9400 1200
-F 0 "Q9" H 9590 1246 50  0000 L CNN
-F 1 "PNP" H 9590 1155 50  0000 L CNN
-F 2 "Transistor:2N4402" H 9600 1300 50  0001 C CNN
-F 3 "~" H 9400 1200 50  0001 C CNN
-	1    9400 1200
+L 74xx:74AHC04 U4
+U 4 1 61546334
+P 3800 900
+F 0 "U4" H 3800 1217 50  0000 C CNN
+F 1 "74AHC04" H 3800 1126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3800 900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 3800 900 50  0001 C CNN
+	4    3800 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 1400 10300 4350
+	4200 900  4100 900 
 Wire Wire Line
-	10200 1550 9500 1550
-Wire Wire Line
-	9500 1550 9500 1400
+	4200 900  4200 4350
 $Comp
-L power:+5V #PWR0119
-U 1 1 6174BF12
-P 1450 850
-F 0 "#PWR0119" H 1450 700 50  0001 C CNN
-F 1 "+5V" H 1465 1023 50  0000 C CNN
-F 2 "" H 1450 850 50  0001 C CNN
-F 3 "" H 1450 850 50  0001 C CNN
-	1    1450 850 
+L 74xx:74AHC04 U4
+U 5 1 6156D816
+P 5800 1550
+F 0 "U4" H 5800 1867 50  0000 C CNN
+F 1 "74AHC04" H 5800 1776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5800 1550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 5800 1550 50  0001 C CNN
+	5    5800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74AHC04 U4
+U 6 1 6156F015
+P 5800 900
+F 0 "U4" H 5800 1217 50  0000 C CNN
+F 1 "74AHC04" H 5800 1126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5800 900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 5800 900 50  0001 C CNN
+	6    5800 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 850  1450 1000
+	6100 900  6200 900 
 Wire Wire Line
-	1450 1000 2250 1000
-Connection ~ 1450 1000
-Connection ~ 2250 1000
+	6200 900  6200 4350
+$Comp
+L 74xx:74AHC04 U4
+U 7 1 615B9EC6
+P 2150 7000
+F 0 "U4" H 2380 7046 50  0000 L CNN
+F 1 "74AHC04" H 2380 6955 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2150 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 2150 7000 50  0001 C CNN
+	7    2150 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74AHC04 U5
+U 7 1 615BCFA2
+P 3150 7000
+F 0 "U5" H 3380 7046 50  0000 L CNN
+F 1 "74AHC04" H 3380 6955 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3150 7000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 3150 7000 50  0001 C CNN
+	7    3150 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74AHC04 U5
+U 1 1 615BFC6E
+P 7800 1550
+F 0 "U5" H 7800 1867 50  0000 C CNN
+F 1 "74AHC04" H 7800 1776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7800 1550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 7800 1550 50  0001 C CNN
+	1    7800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74AHC04 U5
+U 2 1 615C19C2
+P 7800 900
+F 0 "U5" H 7800 1217 50  0000 C CNN
+F 1 "74AHC04" H 7800 1126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7800 900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 7800 900 50  0001 C CNN
+	2    7800 900 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2250 1000 3400 1000
-Connection ~ 3400 1000
+	8100 900  8200 900 
 Wire Wire Line
-	3400 1000 4200 1000
-Connection ~ 4200 1000
+	8200 900  8200 4350
+$Comp
+L 74xx:74AHC04 U5
+U 3 1 6160C78E
+P 9900 1550
+F 0 "U5" H 9900 1867 50  0000 C CNN
+F 1 "74AHC04" H 9900 1776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9900 1550 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 9900 1550 50  0001 C CNN
+	3    9900 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74AHC04 U5
+U 4 1 6160E249
+P 9900 900
+F 0 "U5" H 9900 1217 50  0000 C CNN
+F 1 "74AHC04" H 9900 1126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 9900 900 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 9900 900 50  0001 C CNN
+	4    9900 900 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4200 1000 5400 1000
-Connection ~ 5400 1000
+	10200 900  10300 900 
 Wire Wire Line
-	5400 1000 6200 1000
-Connection ~ 6200 1000
+	10300 900  10300 4350
+$Comp
+L power:+5V #PWR08
+U 1 1 616377F1
+P 2150 6400
+F 0 "#PWR08" H 2150 6250 50  0001 C CNN
+F 1 "+5V" H 2165 6573 50  0000 C CNN
+F 2 "" H 2150 6400 50  0001 C CNN
+F 3 "" H 2150 6400 50  0001 C CNN
+	1    2150 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 61638E79
+P 3150 7500
+F 0 "#PWR09" H 3150 7250 50  0001 C CNN
+F 1 "GND" H 3155 7327 50  0000 C CNN
+F 2 "" H 3150 7500 50  0001 C CNN
+F 3 "" H 3150 7500 50  0001 C CNN
+	1    3150 7500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6200 1000 7400 1000
-Connection ~ 7400 1000
+	2150 7500 3150 7500
+Connection ~ 3150 7500
 Wire Wire Line
-	7400 1000 8200 1000
-Connection ~ 8200 1000
+	2150 6500 3150 6500
 Wire Wire Line
-	8200 1000 9500 1000
-Connection ~ 9500 1000
-Wire Wire Line
-	9500 1000 10300 1000
+	2150 6500 2150 6400
+Connection ~ 2150 6500
 $EndSCHEMATC

@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\jacob\OneDrive - Mohawk College of Applied Arts and Technology\MIRAGE\PCB_LeftPanel\PCB_LeftPanel\PCB_LeftPanel.sch</source>
+    <date>2021-08-24 8:16:40 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>uC-HMI</title>
+        <company>Jacobston Inc</company>
+        <rev>2</rev>
+        <date/>
+        <source>PCB_LeftPanel.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ATmega16-16PU</value>
+      <footprint>Package_DIP:DIP-40_W15.24mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc2466.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega16-16PU" description="16MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, DIP-40"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61243170</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>7442</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="74xx_IEEE" part="7442" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61248CC8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP2200-I-SO</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf</datasheet>
+      <libsource lib="Interface_USB" part="MCP2200-I-SO" description="USB 2.0 to UART Protocol Converter with GPIO, SOIC-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6124A9AE</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61257199</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6125A3A8</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nf</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6125AD84</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126294D</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22pF</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61263363</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Freq">12MHz</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612600EE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AVR-ISP-6</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612787F9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B</value>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6129CE8A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx_IEEE" part="7442">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7442</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~Q0" type="output"/>
+        <pin num="2" name="~Q1" type="output"/>
+        <pin num="3" name="~Q2" type="output"/>
+        <pin num="4" name="~Q3" type="output"/>
+        <pin num="5" name="~Q4" type="output"/>
+        <pin num="6" name="~Q5" type="output"/>
+        <pin num="7" name="~Q6" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="~Q7" type="output"/>
+        <pin num="10" name="~Q8" type="output"/>
+        <pin num="11" name="~Q9" type="output"/>
+        <pin num="12" name="A3" type="input"/>
+        <pin num="13" name="A2" type="input"/>
+        <pin num="14" name="A1" type="input"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_USB" part="MCP2200-I-SO">
+      <aliases>
+        <alias>MCP2200T-I-SO</alias>
+      </aliases>
+      <description>USB 2.0 to UART Protocol Converter with GPIO, SOIC-20</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/200022228D.pdf</docs>
+      <footprints>
+        <fp>SOIC*20*7.5x12.8mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP2200-I-SO</field>
+        <field name="Footprint">Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="OSC1" type="input"/>
+        <pin num="3" name="OSC2" type="output"/>
+        <pin num="4" name="RST" type="input"/>
+        <pin num="5" name="GP7/TxLED" type="BiDi"/>
+        <pin num="6" name="GP6/RxLED" type="BiDi"/>
+        <pin num="7" name="GP5" type="BiDi"/>
+        <pin num="8" name="GP4" type="BiDi"/>
+        <pin num="9" name="GP3" type="BiDi"/>
+        <pin num="10" name="TX" type="output"/>
+        <pin num="11" name="RTS" type="output"/>
+        <pin num="12" name="RX" type="input"/>
+        <pin num="13" name="CTS" type="input"/>
+        <pin num="14" name="GP2" type="BiDi"/>
+        <pin num="15" name="GP1/USB-CFG" type="BiDi"/>
+        <pin num="16" name="GP0/SSPND" type="BiDi"/>
+        <pin num="17" name="V_USB" type="power_in"/>
+        <pin num="18" name="D-" type="BiDi"/>
+        <pin num="19" name="D+" type="BiDi"/>
+        <pin num="20" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16L-8PU">
+      <aliases>
+        <alias>ATmega16-16PU</alias>
+        <alias>ATmega16A-PU</alias>
+        <alias>ATmega32L-8PU</alias>
+        <alias>ATmega32-16PU</alias>
+        <alias>ATmega32A-PU</alias>
+      </aliases>
+      <description>8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, DIP-40</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/doc2466.pdf</docs>
+      <footprints>
+        <fp>DIP*W15.24mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16L-8PU</field>
+        <field name="Footprint">Package_DIP:DIP-40_W15.24mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB0" type="BiDi"/>
+        <pin num="2" name="PB1" type="BiDi"/>
+        <pin num="3" name="PB2" type="BiDi"/>
+        <pin num="4" name="PB3" type="BiDi"/>
+        <pin num="5" name="PB4" type="BiDi"/>
+        <pin num="6" name="PB5" type="BiDi"/>
+        <pin num="7" name="PB6" type="BiDi"/>
+        <pin num="8" name="PB7" type="BiDi"/>
+        <pin num="9" name="~RESET" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="XTAL2" type="output"/>
+        <pin num="13" name="XTAL1" type="input"/>
+        <pin num="14" name="PD0" type="BiDi"/>
+        <pin num="15" name="PD1" type="BiDi"/>
+        <pin num="16" name="PD2" type="BiDi"/>
+        <pin num="17" name="PD3" type="BiDi"/>
+        <pin num="18" name="PD4" type="BiDi"/>
+        <pin num="19" name="PD5" type="BiDi"/>
+        <pin num="20" name="PD6" type="BiDi"/>
+        <pin num="21" name="PD7" type="BiDi"/>
+        <pin num="22" name="PC0" type="BiDi"/>
+        <pin num="23" name="PC1" type="BiDi"/>
+        <pin num="24" name="PC2" type="BiDi"/>
+        <pin num="25" name="PC3" type="BiDi"/>
+        <pin num="26" name="PC4" type="BiDi"/>
+        <pin num="27" name="PC5" type="BiDi"/>
+        <pin num="28" name="PC6" type="BiDi"/>
+        <pin num="29" name="PC7" type="BiDi"/>
+        <pin num="30" name="AVCC" type="power_in"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="AREF" type="passive"/>
+        <pin num="33" name="PA7" type="BiDi"/>
+        <pin num="34" name="PA6" type="BiDi"/>
+        <pin num="35" name="PA5" type="BiDi"/>
+        <pin num="36" name="PA4" type="BiDi"/>
+        <pin num="37" name="PA3" type="BiDi"/>
+        <pin num="38" name="PA2" type="BiDi"/>
+        <pin num="39" name="PA1" type="BiDi"/>
+        <pin num="40" name="PA0" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx_IEEE">
+      <uri>C:\Program Files\KiCad\share\kicad\library/74xx_IEEE.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Interface_USB">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Interface_USB.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J2" pin="6"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="2" name="MISO">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="3" name="MOSI">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="4" name="Net-(C5-Pad1)">
+      <node ref="Y1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad1)">
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C4" pin="1"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad2)">
+      <node ref="U3" pin="18"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad3)">
+      <node ref="U3" pin="19"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad5)">
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="5"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="10" name="SCK">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="14" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="25" name="VCC">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="26" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="28" name="+5V">
+      <node ref="C1" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U1" pin="32"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="35" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="46" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="47" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="48" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="49" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="50" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="51" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="52" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="53" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="56" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="57" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="58" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="59" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="60" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="62" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="63" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="64" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="65" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="66" name="Net-(U3-Pad1)">
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="67" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="68" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="69" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="70" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="71" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="72" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="73" name="Net-(U3-Pad16)">
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="74" name="Net-(U3-Pad17)">
+      <node ref="U3" pin="17"/>
+    </net>
+  </nets>
+</export>

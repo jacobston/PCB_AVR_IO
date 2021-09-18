@@ -469,10 +469,10 @@ Connection ~ 6850 1700
 Wire Wire Line
 	6450 4700 6850 4700
 $Comp
-L Connector:Conn_01x08_Male J?
+L Connector:Conn_01x08_Male J36
 U 1 1 616B3B5E
 P 2800 2000
-F 0 "J?" H 2908 2481 50  0000 C CNN
+F 0 "J36" H 2908 2481 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 2908 2390 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2800 2000 50  0001 C CNN
 F 3 "~" H 2800 2000 50  0001 C CNN

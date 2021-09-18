@@ -185,7 +185,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 1750 4250 1850
 $Comp
-L Connector:USB_B J1
+L PCB_LeftPanel-rescue:USB_B-Connector J1
 U 1 1 6129CE8A
 P 1400 1150
 F 0 "J1" H 1457 1617 50  0000 C CNN

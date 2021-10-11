@@ -32,7 +32,7 @@ Q8
 Text HLabel 9600 900  0    50   Input ~ 0
 Q9
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J4
+L Connector_Generic:Conn_02x08_Odd_Even J4
 U 1 1 612E77DB
 P 1850 2350
 F 0 "J4" H 1900 2867 50  0000 C CNN
@@ -43,7 +43,7 @@ F 3 "~" H 1850 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J5
+L Connector_Generic:Conn_02x08_Odd_Even J5
 U 1 1 612ECDC4
 P 1850 3400
 F 0 "J5" H 1900 3917 50  0000 C CNN
@@ -310,7 +310,7 @@ PC6
 Text HLabel 1100 3800 0    50   Input ~ 0
 PC7
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J6
+L Connector_Generic:Conn_02x08_Odd_Even J6
 U 1 1 614108C8
 P 1850 4650
 F 0 "J6" H 1900 5167 50  0000 C CNN
@@ -321,7 +321,7 @@ F 3 "~" H 1850 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J7
+L Connector_Generic:Conn_02x08_Odd_Even J7
 U 1 1 61410BE6
 P 1850 5700
 F 0 "J7" H 1900 6217 50  0000 C CNN
@@ -588,7 +588,7 @@ PC6
 Text HLabel 1100 6100 0    50   Input ~ 0
 PC7
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J8
+L Connector_Generic:Conn_02x08_Odd_Even J8
 U 1 1 6141BD97
 P 3800 2350
 F 0 "J8" H 3850 2867 50  0000 C CNN
@@ -599,7 +599,7 @@ F 3 "~" H 3800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J9
+L Connector_Generic:Conn_02x08_Odd_Even J9
 U 1 1 6141C26D
 P 3800 3400
 F 0 "J9" H 3850 3917 50  0000 C CNN
@@ -866,7 +866,7 @@ PC6
 Text HLabel 3050 3800 0    50   Input ~ 0
 PC7
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J10
+L Connector_Generic:Conn_02x08_Odd_Even J10
 U 1 1 6141C33F
 P 3800 4650
 F 0 "J10" H 3850 5167 50  0000 C CNN
@@ -877,7 +877,7 @@ F 3 "~" H 3800 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J11
+L Connector_Generic:Conn_02x08_Odd_Even J11
 U 1 1 6141C349
 P 3800 5700
 F 0 "J11" H 3850 6217 50  0000 C CNN
@@ -1024,7 +1024,7 @@ PC6
 Text HLabel 3050 6100 0    50   Input ~ 0
 PC7
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J12
+L Connector_Generic:Conn_02x08_Odd_Even J12
 U 1 1 614CD134
 P 5800 2350
 F 0 "J12" H 5850 2867 50  0000 C CNN
@@ -1035,7 +1035,7 @@ F 3 "~" H 5800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J13
+L Connector_Generic:Conn_02x08_Odd_Even J13
 U 1 1 614CD97A
 P 5800 3400
 F 0 "J13" H 5850 3917 50  0000 C CNN
@@ -1302,7 +1302,7 @@ PC6
 Text HLabel 5050 3800 0    50   Input ~ 0
 PC7
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J14
+L Connector_Generic:Conn_02x08_Odd_Even J14
 U 1 1 614CDA4C
 P 5800 4650
 F 0 "J14" H 5850 5167 50  0000 C CNN
@@ -1313,7 +1313,7 @@ F 3 "~" H 5800 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J15
+L Connector_Generic:Conn_02x08_Odd_Even J15
 U 1 1 614CDA56
 P 5800 5700
 F 0 "J15" H 5850 6217 50  0000 C CNN
@@ -1580,7 +1580,7 @@ PC6
 Text HLabel 5050 6100 0    50   Input ~ 0
 PC7
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J16
+L Connector_Generic:Conn_02x08_Odd_Even J16
 U 1 1 614CDB28
 P 7800 2350
 F 0 "J16" H 7850 2867 50  0000 C CNN
@@ -1591,7 +1591,7 @@ F 3 "~" H 7800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J17
+L Connector_Generic:Conn_02x08_Odd_Even J17
 U 1 1 614CDB32
 P 7800 3400
 F 0 "J17" H 7850 3917 50  0000 C CNN
@@ -1858,7 +1858,7 @@ PC6
 Text HLabel 7050 3800 0    50   Input ~ 0
 PC7
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J18
+L Connector_Generic:Conn_02x08_Odd_Even J18
 U 1 1 614CDC04
 P 7800 4650
 F 0 "J18" H 7850 5167 50  0000 C CNN
@@ -1869,7 +1869,7 @@ F 3 "~" H 7800 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J19
+L Connector_Generic:Conn_02x08_Odd_Even J19
 U 1 1 614CDC0E
 P 7800 5700
 F 0 "J19" H 7850 6217 50  0000 C CNN
@@ -2416,7 +2416,7 @@ Connection ~ 6100 6000
 Wire Wire Line
 	6100 6000 6100 5900
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J20
+L Connector_Generic:Conn_02x08_Odd_Even J20
 U 1 1 61622DE8
 P 9900 2350
 F 0 "J20" H 9950 2867 50  0000 C CNN
@@ -2427,7 +2427,7 @@ F 3 "~" H 9900 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J21
+L Connector_Generic:Conn_02x08_Odd_Even J21
 U 1 1 61622E3A
 P 9900 3400
 F 0 "J21" H 9950 3917 50  0000 C CNN
@@ -2694,7 +2694,7 @@ PC6
 Text HLabel 9150 3800 0    50   Input ~ 0
 PC7
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J22
+L Connector_Generic:Conn_02x08_Odd_Even J22
 U 1 1 61622F0C
 P 9900 4650
 F 0 "J22" H 9950 5167 50  0000 C CNN
@@ -2705,7 +2705,7 @@ F 3 "~" H 9900 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x08_Row_Letter_First J23
+L Connector_Generic:Conn_02x08_Odd_Even J23
 U 1 1 61622F16
 P 9900 5700
 F 0 "J23" H 9950 6217 50  0000 C CNN

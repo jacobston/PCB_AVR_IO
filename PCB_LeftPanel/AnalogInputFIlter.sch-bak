@@ -223,7 +223,7 @@ F 1 "100nF" V 6139 1700 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 1700 50  0001 C CNN
 F 3 "~" H 6300 1700 50  0001 C CNN
 	1    6300 1700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L pspice:INDUCTOR L2
@@ -245,7 +245,7 @@ F 1 "100nF" V 6139 2200 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 2200 50  0001 C CNN
 F 3 "~" H 6300 2200 50  0001 C CNN
 	1    6300 2200
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L pspice:INDUCTOR L3
@@ -267,7 +267,7 @@ F 1 "100nF" V 6139 2700 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 2700 50  0001 C CNN
 F 3 "~" H 6300 2700 50  0001 C CNN
 	1    6300 2700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L pspice:INDUCTOR L4
@@ -289,7 +289,7 @@ F 1 "100nF" V 6139 3200 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 3200 50  0001 C CNN
 F 3 "~" H 6300 3200 50  0001 C CNN
 	1    6300 3200
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L pspice:INDUCTOR L5
@@ -311,7 +311,7 @@ F 1 "100nF" V 6139 3700 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 3700 50  0001 C CNN
 F 3 "~" H 6300 3700 50  0001 C CNN
 	1    6300 3700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L pspice:INDUCTOR L6
@@ -333,7 +333,7 @@ F 1 "100nF" V 6139 4200 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 4200 50  0001 C CNN
 F 3 "~" H 6300 4200 50  0001 C CNN
 	1    6300 4200
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L pspice:INDUCTOR L7
@@ -355,7 +355,7 @@ F 1 "100nF" V 6139 4700 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 4700 50  0001 C CNN
 F 3 "~" H 6300 4700 50  0001 C CNN
 	1    6300 4700
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L pspice:INDUCTOR L8
@@ -377,7 +377,7 @@ F 1 "100nF" V 6139 5200 50  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" H 6300 5200 50  0001 C CNN
 F 3 "~" H 6300 5200 50  0001 C CNN
 	1    6300 5200
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	5450 5100 5100 5100

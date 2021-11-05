@@ -1,0 +1,7 @@
+### Module positions - created on Fri 05 Nov 2021 07:36:49 PM ###
+### Printed by Pcbnew version kicad 5.1.5+dfsg1-2build2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                           PosX       PosY       Rot  Side
+U3        MCP2200-I-SO  SOIC-20W_7.5x12.8mm_P1.27mm    59.6900   -55.8800  270.0000  top
+## End

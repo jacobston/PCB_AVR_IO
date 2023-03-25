@@ -2,7 +2,7 @@
 %TF.CreationDate,2023-03-25T11:12:12-04:00*%
 %TF.ProjectId,PCB_LeftPanel,5043425f-4c65-4667-9450-616e656c2e6b,1*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,Paste,Bot*%
+%TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*

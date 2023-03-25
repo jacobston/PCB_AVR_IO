@@ -13,24 +13,6 @@ Comment2 "8x10 Inputs + 8x10 Outputs"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1550 1550 0    50   Input ~ 0
-Q0
-Text HLabel 1550 900  0    50   Input ~ 0
-Q1
-Text HLabel 3500 1550 0    50   Input ~ 0
-Q2
-Text HLabel 3500 900  0    50   Input ~ 0
-Q3
-Text HLabel 5500 1550 0    50   Input ~ 0
-Q4
-Text HLabel 7500 1550 0    50   Input ~ 0
-Q6
-Text HLabel 7500 900  0    50   Input ~ 0
-Q7
-Text HLabel 9600 1550 0    50   Input ~ 0
-Q8
-Text HLabel 9600 900  0    50   Input ~ 0
-Q9
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J4
 U 1 1 612E77DB
@@ -150,7 +132,7 @@ F 1 "1N4148" H 1300 3150 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 2925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 3100 50  0001 C CNN
 	1    1500 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D8
@@ -161,7 +143,7 @@ F 1 "1N4148" H 1300 3250 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 3025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 3200 50  0001 C CNN
 	1    1500 3200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D9
@@ -172,7 +154,7 @@ F 1 "1N4148" H 1300 3350 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 3125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 3300 50  0001 C CNN
 	1    1500 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D10
@@ -183,7 +165,7 @@ F 1 "1N4148" H 1300 3450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 3225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 3400 50  0001 C CNN
 	1    1500 3400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D11
@@ -194,7 +176,7 @@ F 1 "1N4148" H 1300 3550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 3325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 3500 50  0001 C CNN
 	1    1500 3500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D12
@@ -205,29 +187,7 @@ F 1 "1N4148" H 1300 3650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 3425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 3600 50  0001 C CNN
 	1    1500 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D13
-U 1 1 612F6F3F
-P 1500 3700
-F 0 "D13" H 1600 3750 50  0000 C CNN
-F 1 "1N4148" H 1300 3750 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 3525 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 3700 50  0001 C CNN
-	1    1500 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D14
-U 1 1 612F72AA
-P 1500 3800
-F 0 "D14" H 1600 3850 50  0000 C CNN
-F 1 "1N4148" H 1300 3850 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 3625 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 3800 50  0001 C CNN
-	1    1500 3800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1600 3100 1650 3100
@@ -273,10 +233,6 @@ Wire Wire Line
 	1100 3500 1400 3500
 Wire Wire Line
 	1100 3600 1400 3600
-Wire Wire Line
-	1100 3700 1400 3700
-Wire Wire Line
-	1100 3800 1400 3800
 Text HLabel 1100 2050 0    50   Input ~ 0
 PB0
 Text HLabel 1100 2150 0    50   Input ~ 0
@@ -305,10 +261,6 @@ Text HLabel 1100 3500 0    50   Input ~ 0
 PC4
 Text HLabel 1100 3600 0    50   Input ~ 0
 PC5
-Text HLabel 1100 3700 0    50   Input ~ 0
-PC6
-Text HLabel 1100 3800 0    50   Input ~ 0
-PC7
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J6
 U 1 1 614108C8
@@ -428,7 +380,7 @@ F 1 "1N4148" H 1300 5450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 5225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 5400 50  0001 C CNN
 	1    1500 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D16
@@ -439,7 +391,7 @@ F 1 "1N4148" H 1300 5550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 5325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 5500 50  0001 C CNN
 	1    1500 5500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D17
@@ -450,7 +402,7 @@ F 1 "1N4148" H 1300 5650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 5425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 5600 50  0001 C CNN
 	1    1500 5600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D18
@@ -461,7 +413,7 @@ F 1 "1N4148" H 1300 5750 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 5525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 5700 50  0001 C CNN
 	1    1500 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D19
@@ -472,7 +424,7 @@ F 1 "1N4148" H 1300 5850 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 5625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 5800 50  0001 C CNN
 	1    1500 5800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D20
@@ -483,29 +435,7 @@ F 1 "1N4148" H 1300 5950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 5725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 5900 50  0001 C CNN
 	1    1500 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D21
-U 1 1 61410C7C
-P 1500 6000
-F 0 "D21" H 1600 6050 50  0000 C CNN
-F 1 "1N4148" H 1300 6050 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 5825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 6000 50  0001 C CNN
-	1    1500 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D22
-U 1 1 61410C86
-P 1500 6100
-F 0 "D22" H 1600 6150 50  0000 C CNN
-F 1 "1N4148" H 1300 6150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1500 5925 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1500 6100 50  0001 C CNN
-	1    1500 6100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1600 5400 1650 5400
@@ -519,10 +449,6 @@ Wire Wire Line
 	1600 5800 1650 5800
 Wire Wire Line
 	1650 5900 1600 5900
-Wire Wire Line
-	1600 6000 1650 6000
-Wire Wire Line
-	1650 6100 1600 6100
 Wire Wire Line
 	1100 5050 1350 5050
 Wire Wire Line
@@ -551,10 +477,6 @@ Wire Wire Line
 	1100 5800 1400 5800
 Wire Wire Line
 	1100 5900 1400 5900
-Wire Wire Line
-	1100 6000 1400 6000
-Wire Wire Line
-	1100 6100 1400 6100
 Text HLabel 1100 4350 0    50   Input ~ 0
 PB0
 Text HLabel 1100 4450 0    50   Input ~ 0
@@ -583,10 +505,6 @@ Text HLabel 1100 5800 0    50   Input ~ 0
 PC4
 Text HLabel 1100 5900 0    50   Input ~ 0
 PC5
-Text HLabel 1100 6000 0    50   Input ~ 0
-PC6
-Text HLabel 1100 6100 0    50   Input ~ 0
-PC7
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J8
 U 1 1 6141BD97
@@ -706,7 +624,7 @@ F 1 "1N4148" H 3250 3150 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 2925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 3100 50  0001 C CNN
 	1    3450 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D24
@@ -717,7 +635,7 @@ F 1 "1N4148" H 3250 3250 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 3025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 3200 50  0001 C CNN
 	1    3450 3200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D25
@@ -728,7 +646,7 @@ F 1 "1N4148" H 3250 3350 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 3125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 3300 50  0001 C CNN
 	1    3450 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D26
@@ -739,7 +657,7 @@ F 1 "1N4148" H 3250 3450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 3225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 3400 50  0001 C CNN
 	1    3450 3400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D27
@@ -750,7 +668,7 @@ F 1 "1N4148" H 3250 3550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 3325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 3500 50  0001 C CNN
 	1    3450 3500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D28
@@ -761,29 +679,7 @@ F 1 "1N4148" H 3250 3650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 3425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 3600 50  0001 C CNN
 	1    3450 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D29
-U 1 1 6141C303
-P 3450 3700
-F 0 "D29" H 3550 3750 50  0000 C CNN
-F 1 "1N4148" H 3250 3750 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 3525 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 3700 50  0001 C CNN
-	1    3450 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D30
-U 1 1 6141C30D
-P 3450 3800
-F 0 "D30" H 3550 3850 50  0000 C CNN
-F 1 "1N4148" H 3250 3850 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 3625 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 3800 50  0001 C CNN
-	1    3450 3800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3550 3100 3600 3100
@@ -829,10 +725,6 @@ Wire Wire Line
 	3050 3500 3350 3500
 Wire Wire Line
 	3050 3600 3350 3600
-Wire Wire Line
-	3050 3700 3350 3700
-Wire Wire Line
-	3050 3800 3350 3800
 Text HLabel 3050 2050 0    50   Input ~ 0
 PB0
 Text HLabel 3050 2150 0    50   Input ~ 0
@@ -861,10 +753,6 @@ Text HLabel 3050 3500 0    50   Input ~ 0
 PC4
 Text HLabel 3050 3600 0    50   Input ~ 0
 PC5
-Text HLabel 3050 3700 0    50   Input ~ 0
-PC6
-Text HLabel 3050 3800 0    50   Input ~ 0
-PC7
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J10
 U 1 1 6141C33F
@@ -896,7 +784,7 @@ F 1 "1N4148" H 3250 5450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 5400 50  0001 C CNN
 	1    3450 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D32
@@ -907,7 +795,7 @@ F 1 "1N4148" H 3250 5550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 5500 50  0001 C CNN
 	1    3450 5500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D33
@@ -918,7 +806,7 @@ F 1 "1N4148" H 3250 5650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 5600 50  0001 C CNN
 	1    3450 5600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D34
@@ -929,7 +817,7 @@ F 1 "1N4148" H 3250 5750 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 5700 50  0001 C CNN
 	1    3450 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D35
@@ -940,7 +828,7 @@ F 1 "1N4148" H 3250 5850 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 5800 50  0001 C CNN
 	1    3450 5800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D36
@@ -951,29 +839,7 @@ F 1 "1N4148" H 3250 5950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 5900 50  0001 C CNN
 	1    3450 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D37
-U 1 1 6141C3DF
-P 3450 6000
-F 0 "D37" H 3550 6050 50  0000 C CNN
-F 1 "1N4148" H 3250 6050 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 6000 50  0001 C CNN
-	1    3450 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D38
-U 1 1 6141C3E9
-P 3450 6100
-F 0 "D38" H 3550 6150 50  0000 C CNN
-F 1 "1N4148" H 3250 6150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3450 5925 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3450 6100 50  0001 C CNN
-	1    3450 6100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3550 5400 3600 5400
@@ -988,10 +854,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 5900 3550 5900
 Wire Wire Line
-	3550 6000 3600 6000
-Wire Wire Line
-	3600 6100 3550 6100
-Wire Wire Line
 	3050 5400 3350 5400
 Wire Wire Line
 	3050 5500 3350 5500
@@ -1003,10 +865,6 @@ Wire Wire Line
 	3050 5800 3350 5800
 Wire Wire Line
 	3050 5900 3350 5900
-Wire Wire Line
-	3050 6000 3350 6000
-Wire Wire Line
-	3050 6100 3350 6100
 Text HLabel 3050 5400 0    50   Input ~ 0
 PC0
 Text HLabel 3050 5500 0    50   Input ~ 0
@@ -1019,10 +877,6 @@ Text HLabel 3050 5800 0    50   Input ~ 0
 PC4
 Text HLabel 3050 5900 0    50   Input ~ 0
 PC5
-Text HLabel 3050 6000 0    50   Input ~ 0
-PC6
-Text HLabel 3050 6100 0    50   Input ~ 0
-PC7
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J12
 U 1 1 614CD134
@@ -1142,7 +996,7 @@ F 1 "1N4148" H 5250 3150 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 2925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 3100 50  0001 C CNN
 	1    5450 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D40
@@ -1153,7 +1007,7 @@ F 1 "1N4148" H 5250 3250 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 3025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 3200 50  0001 C CNN
 	1    5450 3200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D41
@@ -1164,7 +1018,7 @@ F 1 "1N4148" H 5250 3350 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 3125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 3300 50  0001 C CNN
 	1    5450 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D42
@@ -1175,7 +1029,7 @@ F 1 "1N4148" H 5250 3450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 3225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 3400 50  0001 C CNN
 	1    5450 3400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D43
@@ -1186,7 +1040,7 @@ F 1 "1N4148" H 5250 3550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 3325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 3500 50  0001 C CNN
 	1    5450 3500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D44
@@ -1197,29 +1051,7 @@ F 1 "1N4148" H 5250 3650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 3425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 3600 50  0001 C CNN
 	1    5450 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D45
-U 1 1 614CDA10
-P 5450 3700
-F 0 "D45" H 5550 3750 50  0000 C CNN
-F 1 "1N4148" H 5250 3750 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 3525 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 3700 50  0001 C CNN
-	1    5450 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D46
-U 1 1 614CDA1A
-P 5450 3800
-F 0 "D46" H 5550 3850 50  0000 C CNN
-F 1 "1N4148" H 5250 3850 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 3625 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 3800 50  0001 C CNN
-	1    5450 3800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5550 3100 5600 3100
@@ -1265,10 +1097,6 @@ Wire Wire Line
 	5050 3500 5350 3500
 Wire Wire Line
 	5050 3600 5350 3600
-Wire Wire Line
-	5050 3700 5350 3700
-Wire Wire Line
-	5050 3800 5350 3800
 Text HLabel 5050 2050 0    50   Input ~ 0
 PB0
 Text HLabel 5050 2150 0    50   Input ~ 0
@@ -1297,10 +1125,6 @@ Text HLabel 5050 3500 0    50   Input ~ 0
 PC4
 Text HLabel 5050 3600 0    50   Input ~ 0
 PC5
-Text HLabel 5050 3700 0    50   Input ~ 0
-PC6
-Text HLabel 5050 3800 0    50   Input ~ 0
-PC7
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J14
 U 1 1 614CDA4C
@@ -1420,7 +1244,7 @@ F 1 "1N4148" H 5250 5450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 5225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 5400 50  0001 C CNN
 	1    5450 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D48
@@ -1431,7 +1255,7 @@ F 1 "1N4148" H 5250 5550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 5325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 5500 50  0001 C CNN
 	1    5450 5500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D49
@@ -1442,7 +1266,7 @@ F 1 "1N4148" H 5250 5650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 5425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 5600 50  0001 C CNN
 	1    5450 5600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D50
@@ -1453,7 +1277,7 @@ F 1 "1N4148" H 5250 5750 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 5525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 5700 50  0001 C CNN
 	1    5450 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D51
@@ -1464,7 +1288,7 @@ F 1 "1N4148" H 5250 5850 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 5625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 5800 50  0001 C CNN
 	1    5450 5800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D52
@@ -1475,29 +1299,7 @@ F 1 "1N4148" H 5250 5950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 5725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 5900 50  0001 C CNN
 	1    5450 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D53
-U 1 1 614CDAEC
-P 5450 6000
-F 0 "D53" H 5550 6050 50  0000 C CNN
-F 1 "1N4148" H 5250 6050 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 5825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 6000 50  0001 C CNN
-	1    5450 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D54
-U 1 1 614CDAF6
-P 5450 6100
-F 0 "D54" H 5550 6150 50  0000 C CNN
-F 1 "1N4148" H 5250 6150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5450 5925 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5450 6100 50  0001 C CNN
-	1    5450 6100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5550 5400 5600 5400
@@ -1543,10 +1345,6 @@ Wire Wire Line
 	5050 5800 5350 5800
 Wire Wire Line
 	5050 5900 5350 5900
-Wire Wire Line
-	5050 6000 5350 6000
-Wire Wire Line
-	5050 6100 5350 6100
 Text HLabel 5050 4350 0    50   Input ~ 0
 PB0
 Text HLabel 5050 4450 0    50   Input ~ 0
@@ -1575,10 +1373,6 @@ Text HLabel 5050 5800 0    50   Input ~ 0
 PC4
 Text HLabel 5050 5900 0    50   Input ~ 0
 PC5
-Text HLabel 5050 6000 0    50   Input ~ 0
-PC6
-Text HLabel 5050 6100 0    50   Input ~ 0
-PC7
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J16
 U 1 1 614CDB28
@@ -1698,7 +1492,7 @@ F 1 "1N4148" H 7250 3150 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 2925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 3100 50  0001 C CNN
 	1    7450 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D56
@@ -1709,7 +1503,7 @@ F 1 "1N4148" H 7250 3250 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 3025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 3200 50  0001 C CNN
 	1    7450 3200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D57
@@ -1720,7 +1514,7 @@ F 1 "1N4148" H 7250 3350 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 3125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 3300 50  0001 C CNN
 	1    7450 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D58
@@ -1731,7 +1525,7 @@ F 1 "1N4148" H 7250 3450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 3225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 3400 50  0001 C CNN
 	1    7450 3400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D59
@@ -1742,7 +1536,7 @@ F 1 "1N4148" H 7250 3550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 3325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 3500 50  0001 C CNN
 	1    7450 3500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D60
@@ -1753,29 +1547,7 @@ F 1 "1N4148" H 7250 3650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 3425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 3600 50  0001 C CNN
 	1    7450 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D61
-U 1 1 614CDBC8
-P 7450 3700
-F 0 "D61" H 7550 3750 50  0000 C CNN
-F 1 "1N4148" H 7250 3750 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 3525 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 3700 50  0001 C CNN
-	1    7450 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D62
-U 1 1 614CDBD2
-P 7450 3800
-F 0 "D62" H 7550 3850 50  0000 C CNN
-F 1 "1N4148" H 7250 3850 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 3625 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 3800 50  0001 C CNN
-	1    7450 3800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7550 3100 7600 3100
@@ -1821,10 +1593,6 @@ Wire Wire Line
 	7050 3500 7350 3500
 Wire Wire Line
 	7050 3600 7350 3600
-Wire Wire Line
-	7050 3700 7350 3700
-Wire Wire Line
-	7050 3800 7350 3800
 Text HLabel 7050 2050 0    50   Input ~ 0
 PB0
 Text HLabel 7050 2150 0    50   Input ~ 0
@@ -1853,10 +1621,6 @@ Text HLabel 7050 3500 0    50   Input ~ 0
 PC4
 Text HLabel 7050 3600 0    50   Input ~ 0
 PC5
-Text HLabel 7050 3700 0    50   Input ~ 0
-PC6
-Text HLabel 7050 3800 0    50   Input ~ 0
-PC7
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J18
 U 1 1 614CDC04
@@ -1976,7 +1740,7 @@ F 1 "1N4148" H 7250 5450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 5225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 5400 50  0001 C CNN
 	1    7450 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D64
@@ -1987,7 +1751,7 @@ F 1 "1N4148" H 7250 5550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 5325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 5500 50  0001 C CNN
 	1    7450 5500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D65
@@ -1998,7 +1762,7 @@ F 1 "1N4148" H 7250 5650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 5425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 5600 50  0001 C CNN
 	1    7450 5600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D66
@@ -2009,7 +1773,7 @@ F 1 "1N4148" H 7250 5750 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 5525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 5700 50  0001 C CNN
 	1    7450 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D67
@@ -2020,7 +1784,7 @@ F 1 "1N4148" H 7250 5850 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 5625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 5800 50  0001 C CNN
 	1    7450 5800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D68
@@ -2031,29 +1795,7 @@ F 1 "1N4148" H 7250 5950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 5725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 5900 50  0001 C CNN
 	1    7450 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D69
-U 1 1 614CDCA4
-P 7450 6000
-F 0 "D69" H 7550 6050 50  0000 C CNN
-F 1 "1N4148" H 7250 6050 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 5825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 6000 50  0001 C CNN
-	1    7450 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D70
-U 1 1 614CDCAE
-P 7450 6100
-F 0 "D70" H 7550 6150 50  0000 C CNN
-F 1 "1N4148" H 7250 6150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7450 5925 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7450 6100 50  0001 C CNN
-	1    7450 6100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7550 5400 7600 5400
@@ -2099,10 +1841,6 @@ Wire Wire Line
 	7050 5800 7350 5800
 Wire Wire Line
 	7050 5900 7350 5900
-Wire Wire Line
-	7050 6000 7350 6000
-Wire Wire Line
-	7050 6100 7350 6100
 Text HLabel 7050 4350 0    50   Input ~ 0
 PB0
 Text HLabel 7050 4450 0    50   Input ~ 0
@@ -2131,11 +1869,6 @@ Text HLabel 7050 5800 0    50   Input ~ 0
 PC4
 Text HLabel 7050 5900 0    50   Input ~ 0
 PC5
-Text HLabel 7050 6000 0    50   Input ~ 0
-PC6
-Text HLabel 7050 6100 0    50   Input ~ 0
-PC7
-Connection ~ 2150 2050
 Wire Wire Line
 	2150 2050 2150 2150
 Connection ~ 2150 2150
@@ -2228,9 +1961,6 @@ Connection ~ 2150 6000
 Wire Wire Line
 	2150 6000 2150 6100
 Wire Wire Line
-	4100 1550 4100 2050
-Connection ~ 4100 2050
-Wire Wire Line
 	4100 2050 4100 2150
 Connection ~ 4100 2150
 Wire Wire Line
@@ -2321,9 +2051,6 @@ Wire Wire Line
 Connection ~ 4100 6000
 Wire Wire Line
 	4100 6000 4100 5900
-Wire Wire Line
-	6100 1550 6100 2050
-Connection ~ 6100 2050
 Wire Wire Line
 	6100 2050 6100 2150
 Connection ~ 6100 2150
@@ -2534,7 +2261,7 @@ F 1 "1N4148" H 9350 3150 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 2925 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 3100 50  0001 C CNN
 	1    9550 3100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D72
@@ -2545,7 +2272,7 @@ F 1 "1N4148" H 9350 3250 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 3025 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 3200 50  0001 C CNN
 	1    9550 3200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D73
@@ -2556,7 +2283,7 @@ F 1 "1N4148" H 9350 3350 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 3125 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 3300 50  0001 C CNN
 	1    9550 3300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D74
@@ -2567,7 +2294,7 @@ F 1 "1N4148" H 9350 3450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 3225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 3400 50  0001 C CNN
 	1    9550 3400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D75
@@ -2578,7 +2305,7 @@ F 1 "1N4148" H 9350 3550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 3325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 3500 50  0001 C CNN
 	1    9550 3500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D76
@@ -2589,29 +2316,7 @@ F 1 "1N4148" H 9350 3650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 3425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 3600 50  0001 C CNN
 	1    9550 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D77
-U 1 1 61622ED0
-P 9550 3700
-F 0 "D77" H 9650 3750 50  0000 C CNN
-F 1 "1N4148" H 9350 3750 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 3525 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 3700 50  0001 C CNN
-	1    9550 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D78
-U 1 1 61622EDA
-P 9550 3800
-F 0 "D78" H 9650 3850 50  0000 C CNN
-F 1 "1N4148" H 9350 3850 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 3625 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 3800 50  0001 C CNN
-	1    9550 3800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9650 3100 9700 3100
@@ -2657,10 +2362,6 @@ Wire Wire Line
 	9150 3500 9450 3500
 Wire Wire Line
 	9150 3600 9450 3600
-Wire Wire Line
-	9150 3700 9450 3700
-Wire Wire Line
-	9150 3800 9450 3800
 Text HLabel 9150 2050 0    50   Input ~ 0
 PB0
 Text HLabel 9150 2150 0    50   Input ~ 0
@@ -2689,10 +2390,6 @@ Text HLabel 9150 3500 0    50   Input ~ 0
 PC4
 Text HLabel 9150 3600 0    50   Input ~ 0
 PC5
-Text HLabel 9150 3700 0    50   Input ~ 0
-PC6
-Text HLabel 9150 3800 0    50   Input ~ 0
-PC7
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J22
 U 1 1 61622F0C
@@ -2812,7 +2509,7 @@ F 1 "1N4148" H 9350 5450 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5225 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 5400 50  0001 C CNN
 	1    9550 5400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D80
@@ -2823,7 +2520,7 @@ F 1 "1N4148" H 9350 5550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 5500 50  0001 C CNN
 	1    9550 5500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D81
@@ -2834,7 +2531,7 @@ F 1 "1N4148" H 9350 5650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5425 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 5600 50  0001 C CNN
 	1    9550 5600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D82
@@ -2845,7 +2542,7 @@ F 1 "1N4148" H 9350 5750 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5525 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 5700 50  0001 C CNN
 	1    9550 5700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D83
@@ -2856,7 +2553,7 @@ F 1 "1N4148" H 9350 5850 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 5800 50  0001 C CNN
 	1    9550 5800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D_Small D84
@@ -2867,29 +2564,7 @@ F 1 "1N4148" H 9350 5950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5725 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 5900 50  0001 C CNN
 	1    9550 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D85
-U 1 1 61622FAC
-P 9550 6000
-F 0 "D85" H 9650 6050 50  0000 C CNN
-F 1 "1N4148" H 9350 6050 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5825 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 6000 50  0001 C CNN
-	1    9550 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D86
-U 1 1 61622FB6
-P 9550 6100
-F 0 "D86" H 9650 6150 50  0000 C CNN
-F 1 "1N4148" H 9350 6150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5925 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9550 6100 50  0001 C CNN
-	1    9550 6100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9650 5400 9700 5400
@@ -2935,10 +2610,6 @@ Wire Wire Line
 	9150 5800 9450 5800
 Wire Wire Line
 	9150 5900 9450 5900
-Wire Wire Line
-	9150 6000 9450 6000
-Wire Wire Line
-	9150 6100 9450 6100
 Text HLabel 9150 4350 0    50   Input ~ 0
 PB0
 Text HLabel 9150 4450 0    50   Input ~ 0
@@ -2967,13 +2638,6 @@ Text HLabel 9150 5800 0    50   Input ~ 0
 PC4
 Text HLabel 9150 5900 0    50   Input ~ 0
 PC5
-Text HLabel 9150 6000 0    50   Input ~ 0
-PC6
-Text HLabel 9150 6100 0    50   Input ~ 0
-PC7
-Wire Wire Line
-	8100 1550 8100 2050
-Connection ~ 8100 2050
 Wire Wire Line
 	8100 2050 8100 2150
 Connection ~ 8100 2150
@@ -3066,9 +2730,6 @@ Connection ~ 8100 6000
 Wire Wire Line
 	8100 6000 8100 5900
 Wire Wire Line
-	10200 1550 10200 2050
-Connection ~ 10200 2050
-Wire Wire Line
 	10200 2050 10200 2150
 Connection ~ 10200 2150
 Wire Wire Line
@@ -3159,8 +2820,6 @@ Wire Wire Line
 Connection ~ 10200 6000
 Wire Wire Line
 	10200 6000 10200 5900
-Wire Wire Line
-	2150 1550 2150 2050
 Text HLabel 3050 5050 0    50   Input ~ 0
 PB7
 Text HLabel 3050 4950 0    50   Input ~ 0
@@ -3281,188 +2940,39 @@ F 3 "~" H 3450 4350 50  0001 C CNN
 	1    3450 4350
 	0    1    1    0   
 $EndComp
-Text HLabel 5500 900  0    50   Input ~ 0
+Text HLabel 2150 1950 1    50   Input ~ 0
+Q0
+Text HLabel 4100 1950 1    50   Input ~ 0
+Q1
+Text HLabel 6100 1950 1    50   Input ~ 0
+Q2
+Text HLabel 8100 1950 1    50   Input ~ 0
+Q3
+Text HLabel 10200 1950 1    50   Input ~ 0
+Q4
+Text HLabel 2250 4350 2    50   Input ~ 0
 Q5
-$Comp
-L 74xx:74AHC04 U4
-U 1 1 61488BDF
-P 1850 1550
-F 0 "U4" H 1850 1867 50  0000 C CNN
-F 1 "74AHC04" H 1850 1776 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1850 1550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 1850 1550 50  0001 C CNN
-	1    1850 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74AHC04 U4
-U 2 1 6151EAC9
-P 1850 900
-F 0 "U4" H 1850 1217 50  0000 C CNN
-F 1 "74AHC04" H 1850 1126 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1850 900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 1850 900 50  0001 C CNN
-	2    1850 900 
-	1    0    0    -1  
-$EndComp
+Text HLabel 4200 4350 2    50   Input ~ 0
+Q6
+Text HLabel 6200 4350 2    50   Input ~ 0
+Q7
+Text HLabel 8200 4350 2    50   Input ~ 0
+Q8
+Text HLabel 10300 4350 2    50   Input ~ 0
+Q9
 Wire Wire Line
-	2150 900  2250 900 
+	2150 1950 2150 2050
+Connection ~ 2150 2050
 Wire Wire Line
-	2250 900  2250 4350
-$Comp
-L 74xx:74AHC04 U4
-U 3 1 615449D2
-P 3800 1550
-F 0 "U4" H 3800 1867 50  0000 C CNN
-F 1 "74AHC04" H 3800 1776 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3800 1550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 3800 1550 50  0001 C CNN
-	3    3800 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74AHC04 U4
-U 4 1 61546334
-P 3800 900
-F 0 "U4" H 3800 1217 50  0000 C CNN
-F 1 "74AHC04" H 3800 1126 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3800 900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 3800 900 50  0001 C CNN
-	4    3800 900 
-	1    0    0    -1  
-$EndComp
+	4100 1950 4100 2050
+Connection ~ 4100 2050
 Wire Wire Line
-	4200 900  4100 900 
+	6100 1950 6100 2050
+Connection ~ 6100 2050
 Wire Wire Line
-	4200 900  4200 4350
-$Comp
-L 74xx:74AHC04 U4
-U 5 1 6156D816
-P 5800 1550
-F 0 "U4" H 5800 1867 50  0000 C CNN
-F 1 "74AHC04" H 5800 1776 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5800 1550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 5800 1550 50  0001 C CNN
-	5    5800 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74AHC04 U4
-U 6 1 6156F015
-P 5800 900
-F 0 "U4" H 5800 1217 50  0000 C CNN
-F 1 "74AHC04" H 5800 1126 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5800 900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 5800 900 50  0001 C CNN
-	6    5800 900 
-	1    0    0    -1  
-$EndComp
+	8100 1950 8100 2050
+Connection ~ 8100 2050
 Wire Wire Line
-	6100 900  6200 900 
-Wire Wire Line
-	6200 900  6200 4350
-$Comp
-L 74xx:74AHC04 U4
-U 7 1 615B9EC6
-P 2150 7000
-F 0 "U4" H 2380 7046 50  0000 L CNN
-F 1 "74AHC04" H 2380 6955 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2150 7000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 2150 7000 50  0001 C CNN
-	7    2150 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74AHC04 U5
-U 7 1 615BCFA2
-P 3150 7000
-F 0 "U5" H 3380 7046 50  0000 L CNN
-F 1 "74AHC04" H 3380 6955 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3150 7000 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 3150 7000 50  0001 C CNN
-	7    3150 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74AHC04 U5
-U 1 1 615BFC6E
-P 7800 1550
-F 0 "U5" H 7800 1867 50  0000 C CNN
-F 1 "74AHC04" H 7800 1776 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7800 1550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 7800 1550 50  0001 C CNN
-	1    7800 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74AHC04 U5
-U 2 1 615C19C2
-P 7800 900
-F 0 "U5" H 7800 1217 50  0000 C CNN
-F 1 "74AHC04" H 7800 1126 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7800 900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 7800 900 50  0001 C CNN
-	2    7800 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 900  8200 900 
-Wire Wire Line
-	8200 900  8200 4350
-$Comp
-L 74xx:74AHC04 U5
-U 3 1 6160C78E
-P 9900 1550
-F 0 "U5" H 9900 1867 50  0000 C CNN
-F 1 "74AHC04" H 9900 1776 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9900 1550 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 9900 1550 50  0001 C CNN
-	3    9900 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74AHC04 U5
-U 4 1 6160E249
-P 9900 900
-F 0 "U5" H 9900 1217 50  0000 C CNN
-F 1 "74AHC04" H 9900 1126 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 9900 900 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT04.pdf" H 9900 900 50  0001 C CNN
-	4    9900 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10200 900  10300 900 
-Wire Wire Line
-	10300 900  10300 4350
-$Comp
-L power:+5V #PWR08
-U 1 1 616377F1
-P 2150 6400
-F 0 "#PWR08" H 2150 6250 50  0001 C CNN
-F 1 "+5V" H 2165 6573 50  0000 C CNN
-F 2 "" H 2150 6400 50  0001 C CNN
-F 3 "" H 2150 6400 50  0001 C CNN
-	1    2150 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 61638E79
-P 3150 7500
-F 0 "#PWR09" H 3150 7250 50  0001 C CNN
-F 1 "GND" H 3155 7327 50  0000 C CNN
-F 2 "" H 3150 7500 50  0001 C CNN
-F 3 "" H 3150 7500 50  0001 C CNN
-	1    3150 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 7500 3150 7500
-Connection ~ 3150 7500
-Wire Wire Line
-	2150 6500 3150 6500
-Wire Wire Line
-	2150 6500 2150 6400
-Connection ~ 2150 6500
+	10200 1950 10200 2050
+Connection ~ 10200 2050
 $EndSCHEMATC

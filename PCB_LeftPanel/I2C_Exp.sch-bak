@@ -13,17 +13,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1000 1500 0    50   Input ~ 0
+Text HLabel 1300 3100 0    50   Input ~ 0
 SCL
-Text HLabel 1000 1600 0    50   Input ~ 0
+Text HLabel 1250 2300 0    50   Input ~ 0
 SDA
-Wire Wire Line
-	1600 2900 1600 3100
 Connection ~ 1600 2900
 Wire Wire Line
 	1700 2900 1600 2900
-Wire Wire Line
-	1700 2300 1600 2300
 Wire Wire Line
 	1500 2050 1500 2400
 Wire Wire Line
@@ -31,18 +27,6 @@ Wire Wire Line
 Connection ~ 1500 2400
 Wire Wire Line
 	1700 2400 1500 2400
-Wire Wire Line
-	1300 2700 1700 2700
-Wire Wire Line
-	1300 1600 1300 2700
-Wire Wire Line
-	1000 1600 1300 1600
-Wire Wire Line
-	1400 2500 1700 2500
-Wire Wire Line
-	1400 1500 1400 2500
-Wire Wire Line
-	1000 1500 1400 1500
 Wire Wire Line
 	1500 3000 1700 3000
 $Comp
@@ -62,17 +46,7 @@ Connection ~ 1600 2800
 Wire Wire Line
 	1700 2800 1600 2800
 Wire Wire Line
-	1600 2300 1600 2600
-Wire Wire Line
-	1600 2600 1600 2800
-Connection ~ 1600 2600
-Wire Wire Line
 	1700 2600 1600 2600
-Wire Wire Line
-	1600 3100 1700 3100
-Connection ~ 1600 3100
-Wire Wire Line
-	1600 3200 1600 3100
 $Comp
 L power:GND #PWR0108
 U 1 1 6184831E
@@ -95,4 +69,22 @@ F 3 " ~" H 2000 2700 50  0001 C CNN
 	1    2000 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1600 2900 1600 3200
+Wire Wire Line
+	1300 3100 1700 3100
+Wire Wire Line
+	1600 2500 1700 2500
+Wire Wire Line
+	1600 2500 1600 2600
+Connection ~ 1600 2600
+Wire Wire Line
+	1600 2600 1600 2700
+Wire Wire Line
+	1600 2700 1700 2700
+Connection ~ 1600 2700
+Wire Wire Line
+	1600 2700 1600 2800
+Wire Wire Line
+	1250 2300 1700 2300
 $EndSCHEMATC
